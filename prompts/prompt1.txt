@@ -1,0 +1,17 @@
+
+Hello.
+We are making tide chart application.
+The result view should consist of chart with tide, 
+text field for entering city name, and submit button.
+
+Controller should first get coordinates by city name using CityService, 
+then get tide data using TideService.
+
+CityService uses GeoCoding API. 
+TideService uses Stormglass API
+
+Use dio to make requests.
+
+Use fl_chart to create chart. 
+
+Use GetBuilder to rebuild chart widget.

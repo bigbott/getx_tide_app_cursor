@@ -1,0 +1,5 @@
+
+Thanks. Chart looks good.  
+But there is some problem with axis values. 
+We should have meters by axis y from 0 to 5
+and we should have hours by axis x.

@@ -1,0 +1,8 @@
+
+Please,  make following changes:
+
+1. Instantiate services by injecting them thru the controller's 
+constructor.
+
+2. Instantiate TextEditingController inside TideController onInit method. 
+Dispose it inside onClose method
