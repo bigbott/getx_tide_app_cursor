@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
 class TideService {
-  static const API_KEY = "1dceb034-bc63-11ef-8d8d-0242ac130003-1dceb0c0-bc63-11ef-8d8d-0242ac130003";
+  static const API_KEY = "get your API key";
   static const URL = "https://api.stormglass.io/v2/tide/extremes/point";
   
   final _dio = Dio();
