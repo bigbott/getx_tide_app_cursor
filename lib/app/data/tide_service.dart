@@ -22,6 +22,7 @@ class TideService {
         ),
       );
 
+
       if (response.statusCode == 200) {
         if (response.data['data'] != null) {
           return List<Map<String, dynamic>>.from(response.data['data']);
