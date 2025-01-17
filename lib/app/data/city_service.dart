@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
 class CityService {
-  static const API_KEY = "I5lrzIbElCk65JfyystGEg==LMPVliDZuS6wiuni";
+  static const API_KEY = "Get your own API key";
   static const URL = "https://api.api-ninjas.com/v1/geocoding?city=";
   
   final _dio = Dio();
